@@ -12,6 +12,6 @@
 
 @import url("../accelerate-theme/style.css");
 
-h1 {
+.homepage-hero h1 {
 	color: red;
 }
