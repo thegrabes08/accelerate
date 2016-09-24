@@ -13,9 +13,7 @@
  */
 
 get_header(); ?>
-<pre>
-	<?php print_r($wp_query); exit; ?>
-</pre>
+
 <section class="home-page">
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -36,7 +34,7 @@ get_header(); ?>
 				       <h2><?php the_title(); ?></h2>
 				       <?php the_excerpt(); ?>
 				       <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
-					<?php endwhile; ?> 
+					<?php endwhile; ?>
 			    <?php wp_reset_query(); ?>
 		   </div>
 	  </div>
