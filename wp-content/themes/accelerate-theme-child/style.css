@@ -49,6 +49,10 @@
 	text-transform: uppercase;
 }
 
+#masthead nav ul li {
+    display: inline;
+    padding: 0 8px;
+}
 /*case-study style*/
 
 article.case-study {
