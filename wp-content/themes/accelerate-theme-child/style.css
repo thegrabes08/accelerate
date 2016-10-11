@@ -87,3 +87,36 @@ aside.case-study-sidebar h5 {
     color: #777777;
     margin: 10px 0 24px;
 }
+
+/*contact form styles*/
+
+.nf-field .nf-field-label label {
+    font-weight: normal;
+    font-size: .9em;
+}
+
+.nf-field-container.firstname-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;
+    clear: initial;
+}
+
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+
+#nf-field-1, #nf-field-5 {
+  height: 40px;
+}
+
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
+}
